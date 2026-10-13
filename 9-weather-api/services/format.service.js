@@ -5,6 +5,6 @@ export const formatWeather = (weather) => {
     temp: weather.main.temp,
     tempFeelsLike: weather.main.feels_like,
     humidity: weather.main.humidity,
-    windSpeed: weather.speed,
+    windSpeed: weather.wind.speed,
   };
 };
